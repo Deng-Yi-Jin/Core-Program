@@ -6,7 +6,7 @@
 /*   By: djin <djin@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/01 12:34:44 by djin              #+#    #+#             */
-/*   Updated: 2023/05/01 22:47:57 by djin             ###   ########.fr       */
+/*   Updated: 2023/05/03 18:03:55 by djin             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -49,9 +49,9 @@ char	*ft_strtrim(char const *s1, char const *set)
 	return (str);
 }
 
-int	main(void)
+/*int	main(void)
 {
 	char	str[] = "Hello There";
 
 	printf("%s\n", ft_strtrim(str, " HelroTh"));
-}
+}*/
