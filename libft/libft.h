@@ -6,7 +6,7 @@
 /*   By: djin <djin@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/28 15:38:20 by djin              #+#    #+#             */
-/*   Updated: 2023/05/06 20:39:12 by djin             ###   ########.fr       */
+/*   Updated: 2023/05/06 22:17:44 by djin             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -67,7 +67,7 @@ void		ft_striteri(char *s, void (*f)(unsigned int, char*));
 
 char		*ft_strjoin(char const *s1, char const *s2);
 
-int			ft_strlcat(char *dest, const char *src, unsigned int size);
+size_t			ft_strlcat(char *dest, const char *src, size_t size);
 
 int			ft_strlcpy(char *dest, const char *src, unsigned int size);
 

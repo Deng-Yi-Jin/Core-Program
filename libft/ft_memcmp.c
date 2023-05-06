@@ -6,7 +6,7 @@
 /*   By: djin <djin@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/30 16:58:38 by djin              #+#    #+#             */
-/*   Updated: 2023/04/30 21:56:53 by djin             ###   ########.fr       */
+/*   Updated: 2023/05/06 21:43:13 by djin             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,11 +34,11 @@ int	ft_memcmp(const void *str1, const void *str2, size_t count)
 	return (s1[i] - s2[i]);
 }
 
-/*int	main(void)
-{
-	char	s1[] = "Hello";
-	char	s2[20] = "Yello";
-	unsigned int	i = 3;
+// int	main(void)
+// {
+// 	char	s1[] = "Hello";
+// 	char	s2[20] = "Yello";
+// 	unsigned int	i = 3;
 
-	printf("%d\n", ft_memcmp(s1, s2, i));
-}*/
+// 	printf("%d\n", ft_memcmp(s1, s2, i));
+// }
